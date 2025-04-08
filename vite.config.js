@@ -8,4 +8,6 @@ export default defineConfig({
     host: true, // Exposes it to the network
     port: 5173, // Use your desired port
   },
+
+  base: import.meta.env.VITE_BASE_PATH || "/my-projects",
 });
