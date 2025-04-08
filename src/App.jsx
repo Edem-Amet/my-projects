@@ -6,7 +6,7 @@ import ResponsiveMenu from "./Pages/ResponsiveMenu";
 import Projects from "./Pages/Projects";
 import Contact from "./Pages/Contact";
 import Research from "./Pages/Research";
-import HobbiesPage from "./Pages/Hobbiespage";
+import HobbiesPage from "./Pages/HobbiesPage";
 import { useState } from "react";
 
 function App() {
