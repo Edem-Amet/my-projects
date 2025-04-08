@@ -3,7 +3,7 @@ import { FaFilePdf, FaFilePowerpoint, FaFlask, FaMicroscope } from "react-icons/
 import { FiExternalLink } from "react-icons/fi";
 
 // Import local files
-import researchImage from "../assets/bow.WEBP";
+import researchImage from "../assets/bow.webp";
 import researchPoster from "../assets/RAMAN POSTER_gofinale.pdf";
 import researchPaper from "../assets/Raman Paper.pdf";
 
