@@ -1,13 +1,15 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+/// <reference types="node" />
 
-// https://vite.dev/config/
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
+const basePath = process.env.VITE_BASE_PATH || '/my-projects';
+
 export default defineConfig({
   plugins: [react()],
   server: {
-    host: true, // Exposes it to the network
-    port: 5173, // Use your desired port
+    host: true,
+    port: 5173,
   },
-
-  base: import.meta.env.VITE_BASE_PATH || "/my-projects",
+  base: basePath,
 });
